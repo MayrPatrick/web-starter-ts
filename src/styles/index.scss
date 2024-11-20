@@ -1,0 +1,28 @@
+@import "reset";
+
+$font-stack: Helvetica, Arial;
+$background-color: #bfefed;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  $font-stack: $font-stack, sans-serif;
+}
+
+body {
+  font-style: $font-stack;
+  background: $background-color;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

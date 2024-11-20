@@ -1,0 +1,33 @@
+{
+  "name": "web-starter-ts",
+  "version": "1.0.0",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "webpack-cli serve --mode=development --env development --open --hot",
+    "build": "webpack --mode=production --env production --progress",
+    "sass": "node-sass src/styles/index.scss build/index.css --output-style compressed",
+    "format": "npx prettier \"{src,packages,./}/**/*.{js,ts,tsx,json,md,scss,yaml,yml}\" --write"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "eslint-webpack-plugin": "^4.2.0",
+    "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "9.5.1",
+    "ts-node": "10.9.2",
+    "tsconfig-paths-webpack-plugin": "^4.2.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^3.11.3"
+  }
+}
